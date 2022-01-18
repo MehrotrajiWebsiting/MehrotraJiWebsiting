@@ -33,7 +33,7 @@ h1{
          list-style: none;
       }
       header li a:link, header li a:visited{
-         text-decoration:none;
+         text-decoration:none; padding: 10px;
          margin: auto;
          color: white;
          text-align: center;
