@@ -1,7 +1,7 @@
 h1{
          font-weight: bold;
          text-align: center;
-         font-size: 750%;
+         font-size: 70px;
       }
       body{
          background-color: pink;
@@ -11,17 +11,17 @@ h1{
          margin-bottom: 2px;
          font-weight: bold;       
          display:block;
-         font-size: 200%; 
+         font-size: 30px; 
       }
 
       section{
-         font-size: 250%;
+         font-size: 20px;
          font-weight: bold;
       }
             h3{
-         font-size:  300%;
+         font-size:  50px;
          color : darkblue;
-         font-family: arial sans-serif;
+         font-family: arial serif;
          text-decoration-line:underline;
       }
       h3:hover
@@ -34,12 +34,14 @@ h1{
       }
       header li a:link, header li a:visited{
          text-decoration:none;
+         margin: auto;
          color: white;
          text-align: center;
-         border:2px solid black;
-         display: inline-block;
+         border:5px solid black;
+         display:block;
          background-color: maroon;
-         width: 400px;           
+         width: 50%;
+         height: 50%;overflow: auto;           
          text-align: center;
          opacity: .7;
       }
