@@ -1,10 +1,20 @@
-h1{
-         font-weight: bold;
-         text-align: center;
-         font-size: 70px;
+     body{
+         background-color: pink;background-image: url(photo.png);
+         background-repeat: repeat;
+         background-size: 40px;
       }
-      body{
-         background-color: pink;
+      h1 {
+        text-align: center;
+         font-weight: bold;
+         font-size: 70px;opacity: 2.0;
+         background-color:darkslategrey;
+      }
+      h1 a:link,h1 a:visited{
+         color: indianred;
+         text-shadow: 5px 5px black; 
+         font-weight: bolder;}
+      *{
+         box-sizing:border-box;
       }
       header li,#playlists li,#connect li,#links li{
          list-style: none;
@@ -13,10 +23,14 @@ h1{
          display:block;
          font-size: 30px; 
       }
-
-      section{
+      header
+      {
+      }
+      section{opacity: .6;
          font-size: 20px;
          font-weight: bold;
+         background-color: white;
+         padding: 10px;
       }
             h3{
          font-size:  50px;
@@ -28,8 +42,8 @@ h1{
       {
          cursor: crosshair;
       }      
-      li
       {
+      li
          list-style: none;
       }
       header li a:link, header li a:visited{
@@ -43,7 +57,7 @@ h1{
          width: 50%;
          height: 50%;overflow: auto;           
          text-align: center;
-         opacity: .7;
+        /* opacity: .7;*/
       }
       header li a:hover,header li a:active{
          background-color:darkblue ;
