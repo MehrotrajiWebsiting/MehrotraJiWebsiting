@@ -14,7 +14,7 @@
          text-shadow: 5px 5px black; 
          font-weight: bolder;}
       *{
-         box-sizing:border-box;
+         box-sizing:border-box; margin: auto;overflow: auto;
       }
       header li,#playlists li,#connect li,#links li{
          list-style: none;
