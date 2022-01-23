@@ -1,0 +1,87 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-size: 16px;
+	color: #fff;
+	font-family:'Oxygen' , sans-serif;
+	background-color: #61122f;
+}
+#logo-img{
+	background:url(unnamed.png) no-repeat;
+	height: 100px;
+	width: 100px;
+	background-size: 100px;
+	box-shadow:2px 2px darkblue;
+}
+header{
+	background-color: #123456;
+}
+#header-nav{
+	padding: 10px 0px 10px 0px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+.navbar-brand h1,.navbar-brand p{
+	
+	padding: 5px 0px 5px 2px;	
+	line-height: .75;
+	font-family: 'Roboto Slab', serif;
+	color: green;
+	text-shadow: 10px 5px 2px black,0 1px black, 1px 0 black, 0 -1px black;
+}
+@media (max-width:400px)
+{
+	*{
+		overflow:auto;
+	}
+}
+.navbar-header button.navbartoggler, .navbar-header .navbar-toggler-icon{
+ 	float: right;
+ 	width: 60px;
+ 	height: 50px;
+ 	border: 0px !important;
+  	padding: 0px !important;	
+}
+#nav-list a{
+	display: block;
+	padding: 5px 20px 5px 5px;
+	color: #951C40;
+}
+#nav-list a span{
+	margin-left: 5px;
+	padding: 5px;
+	font-weight: bolder;
+}
+#nav-list li a:link,#nav-list li a:visited{
+	font-weight: bolder;	
+} 
+#nav-list li a:hover{
+	background-color: #E7E7E7;
+}
+#nav-list li div{
+	color: #951C40;
+	font-weight: bold;
+}
+@media(min-width:576px) and (max-width: 767px)
+{
+	#logo-img{
+		background-size:50px;
+		height: 50px;
+		width: 50px;
+	}
+	.navbar-header button.navbartoggler, .navbar-header .navbar-toggler-icon{
+ 	float: right;
+ 	width: 30px;
+ 	height: 30px;	
+}
+}
+@media (max-width:507px;)
+{
+	.navbar-header button.navbartoggler, .navbar-header .navbar-toggler-icon{
+ 	float: right;
+ 	width: 10px;
+ 	height: 10px;	
+}
+}
