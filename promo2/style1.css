@@ -12,7 +12,7 @@ body{
 	height: 100px;
 	width: 100px;
 	background-size: 100px;
-	box-shadow:2px 2px darkblue;
+	box-shadow:2px 2px black;
 }
 header{
 	background-color: #123456;
@@ -71,17 +71,86 @@ header{
 		height: 50px;
 		width: 50px;
 	}
+
 	.navbar-header button.navbartoggler, .navbar-header .navbar-toggler-icon{
  	float: right;
  	width: 30px;
  	height: 30px;	
 }
 }
-@media (max-width:507px;)
-{
-	.navbar-header button.navbartoggler, .navbar-header .navbar-toggler-icon{
+@media (max-width:507px)
+{ 
+	#brand h1{
+		font-size: 8vw;
+		height: 10vw;
+		margin-bottom: 2px;
+		/*padding: 2px 0px 2px 0px;*/
+	}
+	#brand p{
+		font-size: 4vw;
+		margin-top:2px;
+		margin-bottom: 0px;
+		height: 6vw;
+		padding: 4px 0px 0px 0px;
+	}
+	#header-nav .container
+	{
+		padding-right: 0px; 
+	}
+	.navbar-header button#buton.navbartoggler, .navbar-header #buton .navbar-toggler-icon{
+	padding: 0px;
+	margin: 0px;
  	float: right;
- 	width: 10px;
- 	height: 10px;	
+ 	width: 5vw;
+ 	height: 5vw;	
+	}
 }
+#collapsable-nav .fa{
+		margin:auto;
+	}
+#phone{
+	background-color: white;
+	padding: 7px;
+	position: relative;
+	box-shadow: 2px 2px 2px 2px black; 
 }
+#phone .fa{
+	padding: 0px 2px 0px 8px;
+}
+#main-content .jumbotron{
+	padding: 0px;	
+	box-shadow: 5px 5px 5px 5px black;
+}
+#subscriber-tile , #insta-tile , #discord-tile{
+	width: 100%;
+	height: 200px;
+	border: 2px solid #3F0C1F;
+	box-shadow: 2px 2px 2px 2px black;
+	margin-bottom: 15px;
+	position: relative;
+	overflow: none;
+}
+ #insta-tile{
+ 	background: url(ig.jpg) no-repeat #041E42;
+ 	background-position: center;
+ }
+ #subscriber-tile{
+ 	background: url(subs.jpg) no-repeat black;
+ 	background-position: center;
+ }
+ #discord-tile{
+ 	background: url(dis.jpg) no-repeat #041E42;
+ 	background-position: center;
+ }
+ #subscriber-tile span, #insta-tile span, #discord-tile span{
+ 	position: absolute;
+ 	bottom: 0;
+ 	right: 0;
+ 	width: 100%;
+ 	text-align: center;
+ 	color: white;
+ 	text-transform: uppercase;
+ 	text-decoration: underline double;
+ 	font-weight: bold;
+ 	text-shadow: 1px 1px black;
+ }

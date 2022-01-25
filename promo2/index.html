@@ -21,36 +21,53 @@
     	<nav id="header-nav" class="navbar navbar-expand-lg navbar-light">
     		<div class="container">
     			<div class="navbar-header">
-    				<a href="trial.html.html" class="float-left d-none d-sm-block">
+    				<a href="index.html" class="float-left d-none d-sm-block">
     					<div id="logo-img" alt="logo-image"></div>
     				</a>
-					<div class="navbar-brand">
-						<a href="trial.html.html"><h1>MehrotrajiYoutubing</h1></a>
+					<div class="navbar-brand" id="brand">
+						<a href="index.html"><h1>MehrotrajiYoutubing</h1></a>
 						<p>Welcome to the world of Mehrotraji</p>
 					</div>		
-					<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon bg-dark  border border-white rounded" ></span>
+					<button id="buton" type="button" class="navbar-toggler" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon bg-light  border border-white rounded" ></span>
 					</button>
 				</div>
 				<div id="collapsable-nav" class="collapse navbar-collapse">
 					<ul id="nav-list" class="nav navbar-nav ml-auto">
-						<li>
-							<a href=""><span class="fa fa-book"></span><br d-none d-sm-block>History</a>
+						<li class="nav-item active">
+							<a href="" class="nav-link"><span class="fa fa-book"></span><br class="d-none d-sm-block">History</a>
 						</li>
-						<li>
-							<a href=""><span class="fa fa-list-alt"></span><br d-none d-sm-block>Playlist</a>
+						<li class="nav-item active">
+							<a href="" class="nav-link"><span class="fa fa-list-alt"></span><br class="d-none d-sm-block">Playlist</a>
 						</li>
-						<li>
-							<a href=""><span class="fa fa-info-circle"></span><br d-none d-sm-block>About</a>
+						<li class="nav-item active">
+							<a href="" class="nav-link"><span class="fa fa-info-circle"></span><br class="d-none d-sm-block">About</a>
 						</li>
-						<li class="d-none d-sm-block">
-							<a href="tel:8853088994"><span class="fa fa-phone"></span><br>8853088994<br>*For Collab*</a>
+						<li class="d-none d-sm-block nav-item active">
+							<a href="tel:8853088994" class="nav-link"><span class="fa fa-phone"></span><br>8853088994<br>*For Collab*</a>
 						</li>
 					</ul>
 				</div>
+				<div class="d-block d-sm-none" id="phone"><a href="tel:8853088994"><span class="fa fa-phone"></span><span>8853088994 *For Collab*</span></a></div>
+			</div>
 			</div>
     		</div>
     	</nav>
     </header>
+    <div class="container" id="main-content">
+		<div class="jumbotron">
+			<img src="gamer4life.jpg" alt="logo" class="img-fluid">
+		</div>
+		<div class="row" id="tiles">
+			<div class="col-md-4 col-sm-12 col-12"><a href="" target="_blank"><div id="subscriber-tile"><span>Subscribe</span></div></a></div>
+			<div class="col-md-4 col-sm-6 col-12"><a href="" target="_blank"><div id="insta-tile"><span>Instagram</span></div></a></div>
+			<div class="col-md-4 col-sm-6 col-12"><a href="" target="_blank"><div id="discord-tile"><span>Discord</span></div></a></div>
+		</div>
+	</div>
+	<footer class="fixed-bottom">
+		<div class="container">
+			<div>&copy;25 JANUARY 2022 : OM MEHROTRA</div>
+		</div>
+	</footer>
 </body>
 </html>

@@ -1,5 +1,6 @@
      body{
-         background-color: pink;background-image: url(photo.png);
+         background-color: pink;
+         background-image: url(photo.png);
          background-repeat: repeat;
          background-size: 40px;
       }
@@ -12,9 +13,12 @@
       h1 a:link,h1 a:visited{
          color: indianred;
          text-shadow: 5px 5px black; 
-         font-weight: bolder;}
+         font-weight: bolder;
+      }
       *{
-         box-sizing:border-box; margin: auto;overflow: auto;
+         box-sizing:border-box; 
+         margin: auto;
+         overflow: auto;   
       }
       header li,#playlists li,#connect li,#links li{
          list-style: none;
@@ -27,16 +31,17 @@
       {
          font-size: 30px;
       }
-      section,footer{opacity: .6;
+      section,footer{
+         opacity: .6;
          font-size: 20px;
          font-weight: bold;
          background-color: white;
          padding: 10px;
       }
-            h3{
+      h3{
          font-size:  50px;
          color : darkblue;
-         font-family: arial serif;
+         font-family: arial, serif;
          text-decoration-line:underline;
       }
       h3:hover
@@ -48,7 +53,8 @@
          list-style: none;
       }
       header li a:link, header li a:visited{
-         text-decoration:none; padding: 10px;
+         text-decoration:none; 
+         padding: 10px;
          margin: auto;
          color: white;
          text-align: center;
