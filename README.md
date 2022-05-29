@@ -1,4 +1,6 @@
-### Hi there 👋
+### HACKISTICA'22
+### THIS PROJECT IS A SUBMISSION FOR HACKISTICA'22
+### IT IS A MULTIPAGE WEBSITE PROMOTING A YOUTUBE CHANNEL 
 
 <!--
 **MehrotrajiWebsiting/MehrotraJiWebsiting** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
